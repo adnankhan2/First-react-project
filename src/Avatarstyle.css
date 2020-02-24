@@ -1,0 +1,27 @@
+.AvatarClass img{
+    width: 200px;
+    height: 200px;   
+}
+.button{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-self: center
+}
+.button{
+    transform: (-50% -50%);
+}
+.button{
+    background: none;
+    border: 1px solid black;
+    color: #ccc ;
+    width: 240px;
+    height:80 px;
+    font-size: 18px;
+    border-radius: 4px;
+    transition: .4s;
+    overflow: hidden;
+}
+.button:focus{
+    outline: none;
+}
