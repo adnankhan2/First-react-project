@@ -1,6 +1,6 @@
 import React from 'react'
 import './Avatarstyle.css'
-import 'tachyons'
+import 'tachyons';
 import Avatarlist from './Avatarlist'
 const Avatar = (props) => {
     const avatarlist = [
@@ -32,7 +32,7 @@ const Avatar = (props) => {
  })
 
     return (<div className='mainpage'>
-        <h1 className= "banner ma3 pa4 tc"> Welcome to My avatar world</h1>
+        <h1 className= "banner ma3 pa4 growexit tc"> Welcome to My avatar world</h1>
         {avatarcard}
         <h2><button className= "button ma3  tc">Subscribe</button></h2>
     </div>)
