@@ -32,9 +32,9 @@ const Avatar = (props) => {
  })
 
     return (<div className='mainpage'>
-        <h1 className= "banner ma3 pa4 growexit tc"> Welcome to My avatar world</h1>
-        {avatarcard}
-        <h2><button className= "button ma3  tc">Subscribe</button></h2>
+        <h1 className= "banner ma2 pa1 grow tc"> Welcome to My avatar world</h1>
+        <h3 className= "card">{avatarcard}</h3>
+        <h2><button className= "button ma2 grow tc">Subscribe</button></h2>
     </div>)
 }
 export default Avatar
